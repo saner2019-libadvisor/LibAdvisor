@@ -1,4 +1,4 @@
-This folder contains the experimental results for both LibRec and CrossRec, in particular:
+This folder contains the experimental results for both LibRec and LibAdvisor, in particular:
 
 1. PrecisionRecall.ods: Pecision-recall scores for all 10 folds.
 2. Results_k10.ods: Diversity and Novelty scores for the case k=10.
