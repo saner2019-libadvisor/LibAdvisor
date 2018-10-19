@@ -53,7 +53,7 @@ public class Runner {
 			
 	
 	public void run(){		
-		System.out.println("CrossRec: Recommender System!");
+		System.out.println("LibAdvisor: A Collaborative-Filtering Recommender System!");
 		loadConfigurations();
 		tenFoldCrossValidation();
 		System.out.println(System.currentTimeMillis());		
