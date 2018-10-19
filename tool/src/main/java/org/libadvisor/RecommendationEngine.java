@@ -56,7 +56,7 @@ public class RecommendationEngine {
 		Set<String> libs = new HashSet<String>();					
 		Map<Integer, String> simProjects = new HashMap<Integer, String>();				
 							
-		System.out.println("CrossRec is computing recommendations for " + testingPro);
+		System.out.println("LibAdvisor is computing recommendations for " + testingPro);
 		filename = testingPro.replace("git://github.com/", "").replace(".git", "").replace("/", "__");			
 		testingFilename = testingPro.replace("git://github.com/", "").replace(".git", "").replace("/", "__");						
 		testingDictFilename = this.srcDir +"dicth_" + testingFilename;		
